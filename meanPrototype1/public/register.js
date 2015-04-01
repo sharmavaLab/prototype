@@ -6,7 +6,7 @@ registerPage.controller('newUser', ['$scope', function ($scope) {
     $scope.msg = 'Hello, Newbie';
     $scope.userList = {};
 
-    $scope.submit = function(){
+    $scope.createUser = function(){
 			$scope.userList.push($scope.userDetails);
 			console.log($scope.userDetails);
 			$scope.userDetails = {};
